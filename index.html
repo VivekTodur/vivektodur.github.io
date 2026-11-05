@@ -1,183 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vivek Nagaraj Todur | Bioinformatics &amp; Scientific Software</title>
+<meta name="description" content="Vivek Nagaraj Todur is a Bangalore-based bioinformatics and scientific software professional specialising in clinical genomics, NGS and Nextflow workflows.">
+<meta name="author" content="Vivek Nagaraj Todur">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vivek Nagaraj Todur | Bioinformatics &amp; Scientific Software">
+<meta property="og:description" content="Explore Vivek Nagaraj Todur’s experience in clinical genomics, next-generation sequencing, bioinformatics workflows and scientific software.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vivek Nagaraj Todur | Bioinformatics &amp; Scientific Software">
+<meta name="twitter:description" content="Clinical genomics, NGS, bioinformatics workflows and scientific software.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Vivek Nagaraj Todur",
+  "jobTitle": "Product Owner",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Thermo Fisher Scientific"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bangalore",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/vivektodur/"
+  ],
+  "knowsAbout": [
+    "Bioinformatics",
+    "Clinical genomics",
+    "Next-generation sequencing",
+    "Nextflow",
+    "Scientific software",
+    "Genome assembly",
+    "Variant analysis"
+  ]
 }
-
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-
-/* Container around content */
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-
-/* The circles on the timeline */
-.container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
-/* Place the container to the right */
-.right {
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
-}
-</style>
+</script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-</div>
-
-</body>
-</html>
+<div class="layout">
+<aside class="sidebar">
+  <div class="identity"><img class="portrait" src="assets/profile.jpg" alt="Vivek Nagaraj Todur"><p class="eyebrow">Bioinformatics &amp; scientific software</p><h1>Vivek Nagaraj Todur</h1><p class="location">Bangalore, India</p><a class="linkedin" href="https://www.linkedin.com/in/vivektodur/">LinkedIn <span aria-hidden="true">↗</span></a></div>
+  <nav aria-label="Page sections"><a href="#profile">Profile</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#education">Education &amp; publications</a></nav>
+  <div class="sidebar-note"><span>15+ years</span><p>Connecting genomics, software and scientific discovery.</p></div>
+</aside>
+<main>
+<section id="profile" class="intro"><div class="section-label"><span>01</span> Profile</div><h2>Science meets<br><em>software.</em></h2><p class="lead">Bioinformatics and scientific software professional with 15+ years of experience at the intersection of computational biology, clinical genomics, next-generation sequencing and software engineering.</p><p>My expertise spans clinical bioinformatics, whole-genome and whole-exome sequencing data analysis, transcriptomics, genome assembly, variant annotation and prioritisation, and automated bioinformatics pipeline development. I bring strong programming and automation expertise, with hands-on experience in Python, JavaScript, Nextflow, Linux and workflow orchestration, translating complex biological requirements into scalable and reproducible computational solutions. At Thermo Fisher Scientific, I contribute to scientific software development for Research Use Only (RUO) instruments, incorporating 21 CFR Part 11 requirements, and the GeneART digital platform for online DNA synthesis ordering. Combining genomics expertise with software engineering, workflow automation and product strategy, I am passionate about building intelligent, data-driven solutions and applying machine learning approaches to address complex challenges in genomics and life sciences.</p><div class="tags"><span>Clinical genomics</span><span>NGS workflows</span><span>Scientific software</span></div></section>
+<section id="experience"><div class="section-label"><span>02</span> Career</div><div class="section-heading"><h2>Professional experience</h2><p>From genomic analysis to digital platforms.</p></div>
+<article class="job"><div class="job-meta"><span>Apr 2023 — Present</span><span>Bangalore, India</span></div><div><h3>Product Owner</h3><p class="company">Thermo Fisher Scientific</p><ul><li>Contributed to Security, Audit and Electronic Signature software for Rotea and Compleo, supporting regulated cell and gene therapy manufacturing and 21 CFR Part 11 requirements.</li><li>Directed product strategy and backlog prioritisation for the GeneArt online platform, translating molecular biology and sequence-design requirements into digital ordering workflows.</li><li>Partnered across engineering, bioinformatics and commercial teams on quotation, sequence validation, order tracking and customer management.</li></ul></div></article>
+<article class="job"><div class="job-meta"><span>Jan 2020 — Mar 2023</span><span>Bangalore, India</span></div><div><h3>Genomic Scientist</h3><p class="company">LifeBytes Consulting Pty. Ltd.</p><ul><li>Delivered clinical exome, whole-genome, transcriptome and targeted sequencing analysis, from quality assessment and alignment through variant interpretation.</li><li>Built reproducible NGS workflows with Nextflow and scripting; performed SNV, indel, CNV and structural variant analysis, annotation and validation.</li><li>Worked on ACMG-aligned interpretation, de novo genome and transcriptome assembly, RNA-seq, metagenomics and web-based data management.</li></ul></div></article>
+<article class="job"><div class="job-meta"><span>May 2016 — Jan 2020</span><span>Bangalore, India</span></div><div><h3>Scientist III &amp; Scientist II</h3><p class="company">Eurofins Clinical Genetics India Pvt. Ltd.</p><p>Contributed to clinical genetics and NGS workflows, including WGS/WES data processing, variant analysis and interpretation, workflow development and validation.</p><p class="detail">Scientist III: Sep 2019 – Jan 2020 · Scientist II: May 2016 – Sep 2019</p></div></article>
+<article class="job"><div class="job-meta"><span>Apr 2015 — Sep 2015</span><span>Bangalore, India</span></div><div><h3>Bioinformatics Data Analyst</h3><p class="company">MedGenome Labs Pvt. Ltd.</p><p>Supported NGS analytical workflows in clinical and research genomics.</p></div></article>
+<article class="job"><div class="job-meta"><span>Apr 2012 — Apr 2015</span><span>Bangalore, India</span></div><div><h3>Bioinformatics Data Analyst &amp; Trainee</h3><p class="company">Bionivid Technology Pvt. Ltd.</p><p>Analysed genomic and transcriptomic data, including de novo assembly and annotation, and developed scripts to automate bioinformatics tasks.</p><p class="detail">Data Analyst: Oct 2012 – Apr 2015 · Trainee: Apr 2012 – Sep 2012</p></div></article></section>
+<section id="expertise"><div class="section-label"><span>03</span> Capabilities</div><div class="section-heading"><h2>Areas of expertise</h2><p>A multidisciplinary toolkit for life sciences.</p></div><div class="expertise-grid"><div><h3>Clinical genomics</h3><p>Clinical exome / WES, WGS, variant annotation, SNV, indel, CNV and structural variant analysis, ACMG-aligned classification and clinical reporting workflows. Developed a workflow for non-invasive prenatal testing (NIPT).</p></div><div><h3>Genome &amp; transcriptome</h3><p>De novo genome and transcriptome assembly, assembly optimisation, annotation, RNA-seq, differential expression, 16S rRNA metagenomics, bisulfite sequencing, ATAC-seq, miRNA and ChIP-seq.</p></div><div><h3>Workflow &amp; automation</h3><p><strong>Nextflow</strong> for developing reproducible bioinformatics workflows and pipelines, supported by Python, Perl, AWK and shell scripting.</p></div><div><h3>Scientific software</h3><p>21 CFR Part 11, electronic signatures, audit trails, regulated software, product requirements and testing.</p></div><div><h3>Web &amp; data</h3><p>Drawing on experience to visualise requirements and connect ideas into practical solutions. Using vibe coding, I have developed several web applications with the PERN and MERN stacks and PHP/Laravel.</p></div><div><h3>Infrastructure</h3><p>Linux, server and workstation setup, networking, NAS, HTCondor Cluster and Task Spooler.</p></div></div></section>
+<section id="education"><div class="section-label"><span>04</span> Background</div><div class="section-heading"><h2>Education &amp; publications</h2></div><div class="education"><h3>M.Sc. in Bioinformatics</h3><p>Completed 2011</p></div><h3 class="pub-heading">Selected publications</h3><ol class="publications">
+<li>Saranya, N. S. S., Ramesh, R., Krishnamoorthy, V., Ranganathan, L. N., Shanmugam, S., Hazeena, P., &amp; <strong>Todur, V. N.</strong> (2026). Para infectious myelitis with Conus medullaris immunotropism in the immune phase of leptospirosis infection: Clinical pattern and in silico molecular mimicry analysis based biological plausibility. <i>Journal of Neuroimmunology</i>, <i>418</i>. <a href="https://doi.org/10.1016/j.jneuroim.2026.578988">https://doi.org/10.1016/j.jneuroim.2026.578988</a></li>
+<li>Pandey, T., Ghosh, A., <strong>Todur, V. N.</strong>, Rajendran, V., Kalita, P., Kalita, J., Shukla, R., Chetri, P. B., Shukla, H., Sonkar, A., Lyngdoh, D. L., Singh, R., Khan, H., Nongkhlaw, J., Das, K. C., &amp; Tripathi, T. (2020). Draft Genome of the Liver Fluke. <i>ACS Omega</i>, <i>5</i>(19). <a href="https://doi.org/10.1021/acsomega.0c00980">https://doi.org/10.1021/acsomega.0c00980</a></li>
+<li>Bankar, K. G., <strong>Todur, V. N.</strong>, Shukla, R. N., &amp; Vasudevan, M. (2015). Ameliorated de novo transcriptome assembly using Illumina paired end sequence data with Trinity Assembler. <i>Genomics Data</i>, <i>5</i>. <a href="https://doi.org/10.1016/j.gdata.2015.07.012">https://doi.org/10.1016/j.gdata.2015.07.012</a></li>
+<li>Kakumani, P. K., Shukla, R., <strong>Todur, V. N.</strong>, Malhotra, P., Mukherjee, S. K., &amp; Bhatnagar, R. K. (2015). De novo transcriptome assembly and analysis of Sf21 cells using illumina paired end sequencing. <i>Biology Direct</i>, <i>10</i>. <a href="https://doi.org/10.1186/s13062-015-0072-7">https://doi.org/10.1186/s13062-015-0072-7</a></li>
+</ol></section>
+<footer>Vivek Nagaraj Todur <span>Bioinformatics · Genomics · Scientific software</span></footer>
+</main></div></body></html>
